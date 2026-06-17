@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+}
+header{
+    text-align:center;
+    padding: 30px;
+    background-color: rgb(228, 137, 110);
+    color: aquamarine;
+}
