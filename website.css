@@ -1,5 +1,26 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color: rgb(250, 187, 187);
+}
+nav li{
+    display: inline;
+    margin: 50px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav li:hover{
+    background-color: rgb(87, 75, 60);
+}
 footer{
     background-color: black;
     color: aliceblue;
     text-align: center;
+}
+#cat{
+    height: 800px;
+    margin: 0px;
 }
