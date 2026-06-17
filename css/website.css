@@ -3,14 +3,17 @@
 }
 nav{
     background-color: rgb(250, 187, 187);
+    height: 50px;
 }
 nav li{
     display: inline;
     margin: 50px;
+    padding: 10px;
 }
 nav li a{
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
 nav li:hover{
     background-color: rgb(87, 75, 60);
