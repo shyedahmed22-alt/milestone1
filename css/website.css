@@ -2,6 +2,8 @@
     margin: 0;
 }
 nav{
+    display: grid;
+    align-items: center;
     background-color: rgb(250, 187, 187);
     height: 50px;
 }
@@ -26,4 +28,10 @@ footer{
 #cat{
     height: 800px;
     margin: 0px;
+    
+}
+figure{
+    display: grid;
+    justify-items: center;
+    margin: 50px;
 }
