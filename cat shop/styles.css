@@ -30,6 +30,46 @@ nav li:hover{
 main h2{
     padding: 30px;
 }
+.info{
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+.Basic{
+    width: 20rem;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 10px;
 
-
+}
+.breed label{
+    display: inline-block;
+    padding: 10px;
+}
+.color label{
+    display: inline-block;
+    padding: 10px;
+}
+fieldset{
+    margin: 20px;
+}
+fieldset legend{
+    text-align: center;
+}
+.button{
+   display: block;
+    margin: 20px;
+}
+#submit{
+    margin: 20px;
+    font-size: larger;
+    border-radius: 5px;
+}
+#reset{
+    margin: 20px;
+    font-size: larger;
+    border-radius: 5px;
+}
 

@@ -23,41 +23,56 @@
         <section>
             <h2>WELCOME TO OUR SHOP !!</h2>
             <form action="index.php">
-                <label class="name"for="name">Your Name </label>
-                <input class="name" type="text" id="name">
 
-                <label class="email" for="email">Your email</label>
-                <input class="email" type="email" id="email">
-                <fieldset>
+                 <fieldset class="info">
+                <legend>Basic info</legend>
+                <label class="Basic"for="name">Your Name </label>
+                <input class="Basic" type="text" id="name">
+
+                <label class="Basic" for="email">Your email</label>
+                <input class="Basic" type="email" id="email">
+                 </fieldset>
+
+                <fieldset class="breed">
                     <legend>CAT INFO</legend>
                     <input type="radio" name="cat" id="Ragdol">
-                    <label for="Ragdol">Ragdoll</label>
+                    <label for="Ragdol">Ragdoll</label><br>
 
                     <input type="radio" name="cat" id="Maine Coon">
-                    <label for="Maine Coon">Maine Coon</label>
+                    <label for="Maine Coon">Maine Coon</label><br>
 
                     <input type="radio" name="cat" id="Persian">
-                    <label for="Persian">Persian</label>
+                    <label for="Persian">Persian</label><br>
 
-                    <input type="radio" name="cat" id="Persian">
-                    <label for="Persian">Persian</label>
+                    <input type="radio" name="cat" id="Burmilla">
+                    <label for="Burmilla">Burmilla</label><br>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="color">
                     <legend>COLOR</legend>
                     <input type="checkbox" name="color" id="gray">
-                    <label for="gray">Gray</label>
+                    <label for="gray">Gray</label><br>
 
                     <input type="checkbox" name="color" id="black">
-                    <label for="black">Black</label>
+                    <label for="black">Black</label><br>
 
                     <input type="checkbox" name="color" id="white">
-                    <label for="white">White</label>
+                    <label for="white">White</label><br>
     
                     <input type="checkbox" name="color" id="orange">
-                    <label for="orange">Orange</label>
+                    <label for="orange">Orange</label><br>
 
                 </fieldset>
+                <fieldset class="comments">
+                    <legend>comments</legend>
+                    <textarea cols="50" rows="4">
+
+                    </textarea>
+                </fieldset>
+                <div class="button">
+                <input type="submit" id="submit" value="submit">
+                <input type="reset" id="reset" value="clear">
+                </div>
 
             </form>
 
