@@ -7,3 +7,31 @@ header{
     background-color: rgb(228, 137, 110);
     color: aquamarine;
 }
+nav{
+      display: grid;
+    background-color: beige;
+    justify-content: center left;
+    padding: 20px;
+
+}
+nav li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: #fad0f6;
+    border-radius: 50px;
+}
+main h2{
+    padding: 30px;
+}
+form input{
+    display: block;
+}
+
+
