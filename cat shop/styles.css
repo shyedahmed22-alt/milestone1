@@ -4,8 +4,8 @@
 header{
     text-align:center;
     padding: 30px;
-    background-color: rgb(228, 137, 110);
-    color: aquamarine;
+    background-color: rgba(202, 176, 120, 0.774);
+    color: rgb(199, 248, 120);
 }
 nav{
       display: grid;
@@ -30,8 +30,6 @@ nav li:hover{
 main h2{
     padding: 30px;
 }
-form input{
-    display: block;
-}
+
 
 
