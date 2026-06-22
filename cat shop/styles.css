@@ -5,7 +5,7 @@ header{
     text-align:center;
     padding: 30px;
     background-color: rgba(202, 176, 120, 0.774);
-    color: rgb(199, 248, 120);
+    color: rgb(146, 50, 184);
 }
 nav{
       display: grid;
@@ -70,6 +70,6 @@ fieldset legend{
 #reset{
     margin: 20px;
     font-size: larger;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
