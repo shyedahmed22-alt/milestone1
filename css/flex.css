@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    gap: 20px;
+}
+.container div{
+    border: 2px solid cyan;
+    height: 100px;
+    width: 100px;
+    font-size: 3em;
+}
