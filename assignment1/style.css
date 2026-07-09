@@ -1,0 +1,215 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.txt-center{
+    text-align: center;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.blue-button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+}
+.blue-button:hover{
+    background-color: yellow;
+    color: black;
+}
+body{
+    background-color: rgba(229, 231, 248, 0.5);
+}
+/* Header */
+header{
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+}
+nav h3{
+    font-size: 54px;
+    color: #4E47FF;
+    font-weight: 800;
+}
+.banner{
+    margin: 0px 265px;
+}
+.header-title{
+    font-size: 65px;
+    margin-top: 150px;
+}
+.btn-cont{
+    margin-bottom: 150px;
+}
+/* action styles */
+.action-con{
+    display: flex;
+    margin: 116px 150px;
+    justify-content: space-between;
+    gap: 220px;
+}
+.action-title{
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+.action-sub-title{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    font-weight: normal;
+}
+.action-img{
+    border-radius: 48px;
+}
+/* information */
+.info{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0px 150px;
+    border-radius: 24px;
+    padding: 50px 142px;
+}
+.info-title{
+    font-size: 38px;
+}
+.info-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.user-info-title{
+    font-size: 80px;
+    margin: 0;
+}
+.user-info-sub-title{
+    color: rgba(0, 0, 0, 0.5);
+}
+/* ratings */
+.ratings{
+    margin: 137px 150px;
+}
+.ratings-title{
+    font-size:42px;
+    font-weight: bold;
+}
+.ratings-con{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.review{
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px;
+}
+.review-title{
+    font-size: 24px;
+    margin: 0px;
+}
+.comment{
+    margin-top: 8px;
+    font-size: 16px;
+}
+.account{
+    display: flex;
+    gap: 10px;
+}
+.date{
+    color: rgba(179, 179, 179, 1);
+}
+/* Focus */
+.focus{
+    background-color: white;
+    margin: 0 150px;
+    padding: 71px 150px;
+    border-radius: 14px;
+}
+.fo-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+}
+.fo-sub-title{
+    color: rgba(0, 0, 0, 0.5);
+}
+.webflow{
+    margin: 20px;
+}
+.fo-image{
+        border-radius: 48px;
+}
+/* feedback */
+.feedback-con{
+    margin: 32px 150px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.footer-column h1{
+    font-size:97px ;
+}
+.footer-column{
+    width:50%;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+input[type="email"],input[type="text"],textarea{
+    display: block;
+    padding: 20px 32px;
+    margin: 19px 0;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    width: 93%;
+}
+.footer-button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 19px 0px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+}
+/* page end */
+.ending{
+    background-color: white;
+    padding-bottom: 100px;
+}
+.end-logo{
+     font-size: 100px;
+    color: #4E47FF;
+    font-weight: 800;
+    padding-top: 104px;
+    margin: 0px;
+}
+.contact-us{
+    color:#8987A1 ;
+}
+.links{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+.links a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
